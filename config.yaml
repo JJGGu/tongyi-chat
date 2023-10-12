@@ -10,7 +10,7 @@ Service:
     TemplateConfigs:
       - Name: 模板1
         Url: 'templates/template.yaml'
-        AllowedRegions: []
+        AllowedRegions: ['cn-hangzhou']
   ServiceType: private
   ServiceInfo:
     Locale: zh-CN
@@ -26,7 +26,7 @@ Artifact:
     Description: tongyi-14b部署
     ArtifactProperty:
       RegionId: cn-hangzhou
-      ImageId: m-bp1h69vdftzzya1ks3n9
+      ImageId: m-bp12onr71fv0f0dgauo2
     SupportRegionIds:
       - cn-qingdao
       - cn-beijing
